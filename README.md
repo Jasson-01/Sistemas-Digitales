@@ -1,0 +1,13 @@
+ORG1 (Campus)
+
+https://campus12-24.exactas.uba.ar/course/view.php?id=4168&section=5 (Mas actual-2024)
+
+https://campus12-24.exactas.uba.ar/course/view.php?id=2446&section=0 (Tiene videos-2021)
+
+GitHub
+
+https://github.com/nad-garraz/sistemasDigitales/tree/main
+
+cubaWiki
+
+https://www.cubawiki.com.ar/index.php/Organizaci%C3%B3n_del_Computador_I (pl_1993)
