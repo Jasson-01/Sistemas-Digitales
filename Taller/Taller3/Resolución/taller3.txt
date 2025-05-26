@@ -1,0 +1,53 @@
+0x00            li a0,4228              // cargamos el valor inmediato '4228' en a0
+0x04            li a1,2114              // cargamos el valor inmediato '2114' en a1
+0x08            j resta                 // hacemos un salto a la etiqueta resta
+0x0C    fin:    beq zero, zero, fin     //Como zero=zero es tautologia, se entra en un bucle, que termina llamando siempre a fin
+0x10    resta:  sub a0,a0,a1            // restamos los valores registrados en a1 a0 y los registramos en a0
+0x14            beq a0,zero, fin        // chequea si a0 es zero, en caso de afirmativo salta a fin, caso contrario pc aumenta en 4
+0x18    sigo: j resta                   // hace un salto a la etiqueta de resta
+
+a)
+
+Fin--> 0x0C
+Resta--> 0x10
+Sigo--> 0x18
+
+b)
+
+j resta: Offset =0x18 - 0x08 = 0x10 (4 instruciones)
+
+beq zero, zero, fin: Offset= 0x0C -0x0C= 0x00 (0 instrucciones)
+
+beq a0,zero, fin:Offset = 0x0C - 0x14 = -0x08 (2 instrucciones)
+
+j resta: Offset = 0x10- 0x18 = -0x08 (2 instrucciones)
+
+c)
+No coincide ya que el 'li' puede tomar hasta 32 bits,en cambio addi solamente puede tomar 12
+
+DEC = [-2147483648, 2147483647]
+
+BIN= [1000 0000 0000 0000 0000 0000 0000 0000; 0111 1111 1111 1111 1111 1111 1111 1111]
+
+
+
+d)
+
+Para poder almacenar los valores en los ax respectivos que no son representables en C2, dividimos al numero en dos partes; sus primeros 20 msb y sus 12 lsb. Se realiza un lui con el registro a usar y los 20msb. La instruccion lui toma un registro y un imm y lo almacena en dicho registro desplazado 12 posicionnes a izquierda. Luego se realiza un addi entre dicho registro y los 12msb restantes. De esta manera podemos almacenar un valor no representable por el imm en un registro.
+
+e)
+
+como en la secuencia de instrucciones no se vuelve a almacenar un valor en a1, el valor que queda en el mismo es el mismo que tras el llamado del pc 0x04
+
+f) 
+al entrar en fin el pc queda en un bucle tras la segunda llamada de la etiqueta resta. ya que se termina cumpliendo siempre la condicion de que zero es igual a zero. Por lo tanto el valor del PC quedara fijo en PC = 0x0C
+
+g) [0x00,0x04,0x08,0x10,0x14,0x18,0x10,0x14,0x0c, 0x0c...]
+
+h)
+
+0x04    srai a1, a0,1
+
+
+EJERCICIO 3
+
