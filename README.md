@@ -19,3 +19,11 @@ https://docs.google.com/document/d/1CtJKRPdyvsJF0vBcDxYQ18MK-b-4155XMSSdKwcyVac/
 Lista de Videos sobre Flip-Flop y otras cosas interesantes:
 
 https://www.youtube.com/watch?v=gje7EY6Hdyo&list=PLenmbJvDQ_-C11s_-FRBnzJHYslfierID&index=48
+
+https://www.youtube.com/watch?v=gUdaxV_mbxY&list=LL&index=17
+
+Videos sobre RISV-V:
+
+https://www.youtube.com/@thereforeMathAndCS/videos
+
+https://www.youtube.com/watch?v=D5u9zA_LBuA&list=LL&index=49
