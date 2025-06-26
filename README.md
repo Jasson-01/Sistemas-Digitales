@@ -11,3 +11,6 @@ https://github.com/nad-garraz/sistemasDigitales/tree/main
 cubaWiki
 
 https://www.cubawiki.com.ar/index.php/Organizaci%C3%B3n_del_Computador_I (pl_1993)
+
+Apuntes_SD
+https://docs.google.com/document/d/1CtJKRPdyvsJF0vBcDxYQ18MK-b-4155XMSSdKwcyVac/edit?tab=t.0
