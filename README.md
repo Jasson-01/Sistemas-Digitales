@@ -27,3 +27,7 @@ Videos sobre RISV-V:
 https://www.youtube.com/@thereforeMathAndCS/videos
 
 https://www.youtube.com/watch?v=D5u9zA_LBuA&list=LL&index=49
+
+Microarquitectura:
+
+https://youtu.be/lpgLZtn42XM?si=l1v6KuiIeMkjmUTY
