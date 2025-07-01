@@ -24,10 +24,24 @@ https://www.youtube.com/watch?v=gUdaxV_mbxY&list=LL&index=17  ( Registro de Desp
 
 Videos sobre RISV-V:
 
+https://youtu.be/wg3j35gQ71k?si=tYo1Zl14Twwl0qrt
+
+https://youtu.be/2RteUgZwmHI?si=Vk4PlNVjVePzpx0H
+
+https://youtu.be/iraP-NzXeFU?si=VQwWdyt43jX-1_V0
+
 https://www.youtube.com/@thereforeMathAndCS/videos
+
+https://youtu.be/fABbEKsTQPA?si=Z2snEIRADPh7Nq25
 
 https://www.youtube.com/watch?v=D5u9zA_LBuA&list=LL&index=49
 
+https://youtu.be/JyvZ0i9s6xg?si=yrolID-bzoc6b9ei
+
 Microarquitectura:
+
+https://youtu.be/FeCDhUM47Ds?si=qUz8LSXXoOxaK-s_
+
+https://youtu.be/MoO-_-BB_R8?si=IsIsAwVeHhsJZOV5
 
 https://youtu.be/lpgLZtn42XM?si=l1v6KuiIeMkjmUTY
