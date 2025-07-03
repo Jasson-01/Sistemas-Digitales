@@ -16,7 +16,7 @@ Apuntes_SD y Resumen:
 
 https://docs.google.com/document/d/1CtJKRPdyvsJF0vBcDxYQ18MK-b-4155XMSSdKwcyVac/edit?tab=t.0
 
-https://youtube.com/@travernerd4061?si=Tj0IQLMFj2E9Vlk0  (Canal recomendado)
+https://youtube.com/@travernerd4061?si=Tj0IQLMFj2E9Vlk0 
 
 Lista de Videos sobre Flip-Flop y otras cosas interesantes:
 
