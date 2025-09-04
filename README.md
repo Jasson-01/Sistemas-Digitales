@@ -8,7 +8,7 @@ GitHub:
 
 https://github.com/nad-garraz/sistemasDigitales/tree/main
 
-cubaWiki:
+cubaWiki (Varios ejercicios de la guias, estan resueltos aquí):
 
 https://www.cubawiki.com.ar/index.php/Organizaci%C3%B3n_del_Computador_I (pl_1993)
 
