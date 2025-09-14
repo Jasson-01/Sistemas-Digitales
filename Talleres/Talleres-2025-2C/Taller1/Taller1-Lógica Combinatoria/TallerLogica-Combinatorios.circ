@@ -300,7 +300,7 @@
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1030,240)" name="Pin">
+    <comp lib="0" loc="(1030,250)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Z"/>
@@ -366,8 +366,8 @@
     <comp lib="1" loc="(560,540)" name="AND Gate"/>
     <comp lib="1" loc="(660,490)" name="OR Gate"/>
     <comp lib="5" loc="(960,150)" name="Hex Digit Display"/>
-    <comp loc="(1030,240)" name="comparador_cero"/>
     <comp loc="(630,210)" name="sumador_4"/>
+    <comp loc="(970,250)" name="comparador_cero"/>
     <wire from="(150,230)" to="(190,230)"/>
     <wire from="(150,350)" to="(180,350)"/>
     <wire from="(180,250)" to="(180,350)"/>
@@ -413,11 +413,13 @@
     <wire from="(720,370)" to="(720,400)"/>
     <wire from="(750,230)" to="(750,320)"/>
     <wire from="(750,320)" to="(1030,320)"/>
-    <wire from="(810,210)" to="(810,240)"/>
+    <wire from="(810,210)" to="(810,250)"/>
     <wire from="(810,210)" to="(960,210)"/>
+    <wire from="(810,250)" to="(870,250)"/>
     <wire from="(960,150)" to="(960,180)"/>
     <wire from="(960,180)" to="(1020,180)"/>
     <wire from="(960,180)" to="(960,210)"/>
+    <wire from="(970,250)" to="(1030,250)"/>
   </circuit>
   <circuit name="incrementador_4">
     <a name="appearance" val="evolution"/>
@@ -553,7 +555,6 @@
     <comp lib="1" loc="(240,340)" name="OR Gate">
       <a name="width" val="4"/>
     </comp>
-    <comp lib="1" loc="(800,690)" name="NOT Gate"/>
     <comp lib="2" loc="(1170,360)" name="Multiplexer">
       <a name="select" val="2"/>
       <a name="width" val="4"/>
@@ -582,6 +583,7 @@
     <wire from="(1060,480)" to="(1400,480)"/>
     <wire from="(110,670)" to="(140,670)"/>
     <wire from="(1150,380)" to="(1150,800)"/>
+    <wire from="(1150,800)" to="(1290,800)"/>
     <wire from="(1170,360)" to="(1220,360)"/>
     <wire from="(1210,610)" to="(1210,640)"/>
     <wire from="(1210,640)" to="(1270,640)"/>
@@ -592,6 +594,13 @@
     <wire from="(1230,580)" to="(1230,660)"/>
     <wire from="(1230,580)" to="(1270,580)"/>
     <wire from="(1230,660)" to="(1270,660)"/>
+    <wire from="(1240,650)" to="(1240,730)"/>
+    <wire from="(1240,650)" to="(1270,650)"/>
+    <wire from="(1290,600)" to="(1290,610)"/>
+    <wire from="(1290,610)" to="(1340,610)"/>
+    <wire from="(1290,680)" to="(1290,700)"/>
+    <wire from="(1290,700)" to="(1290,800)"/>
+    <wire from="(1290,700)" to="(1340,700)"/>
     <wire from="(130,230)" to="(130,320)"/>
     <wire from="(130,230)" to="(190,230)"/>
     <wire from="(130,320)" to="(130,450)"/>
@@ -608,6 +617,7 @@
     <wire from="(1320,360)" to="(1320,420)"/>
     <wire from="(1320,360)" to="(1420,360)"/>
     <wire from="(1320,420)" to="(1400,420)"/>
+    <wire from="(1340,610)" to="(1340,700)"/>
     <wire from="(1420,250)" to="(1420,360)"/>
     <wire from="(1420,250)" to="(1530,250)"/>
     <wire from="(1500,420)" to="(1590,420)"/>
@@ -636,8 +646,9 @@
     <wire from="(650,490)" to="(710,490)"/>
     <wire from="(650,510)" to="(680,510)"/>
     <wire from="(650,650)" to="(950,650)"/>
-    <wire from="(650,690)" to="(770,690)"/>
+    <wire from="(650,690)" to="(1020,690)"/>
     <wire from="(650,710)" to="(710,710)"/>
+    <wire from="(650,730)" to="(1240,730)"/>
     <wire from="(680,510)" to="(680,610)"/>
     <wire from="(680,610)" to="(1210,610)"/>
     <wire from="(710,490)" to="(710,510)"/>
@@ -646,7 +657,6 @@
     <wire from="(710,520)" to="(800,520)"/>
     <wire from="(800,340)" to="(800,370)"/>
     <wire from="(800,370)" to="(1130,370)"/>
-    <wire from="(800,690)" to="(1020,690)"/>
     <wire from="(820,550)" to="(820,800)"/>
     <wire from="(820,800)" to="(1150,800)"/>
     <wire from="(840,530)" to="(1060,530)"/>
@@ -664,18 +674,12 @@
     <a name="circuit" val="verificador"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1270,300)" name="Pin">
+    <comp lib="0" loc="(1280,220)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="res"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1280,220)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="N"/>
-      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1280,240)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -686,13 +690,19 @@
     <comp lib="0" loc="(1280,260)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="V"/>
+      <a name="label" val="N"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1280,280)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="C"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1280,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="V"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(540,220)" name="Clock"/>
@@ -743,7 +753,7 @@
     <wire from="(1170,240)" to="(1280,240)"/>
     <wire from="(1170,260)" to="(1280,260)"/>
     <wire from="(1170,280)" to="(1280,280)"/>
-    <wire from="(1170,300)" to="(1270,300)"/>
+    <wire from="(1170,300)" to="(1280,300)"/>
     <wire from="(540,220)" to="(600,220)"/>
     <wire from="(790,190)" to="(960,190)"/>
     <wire from="(790,250)" to="(850,250)"/>
