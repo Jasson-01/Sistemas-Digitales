@@ -1,3 +1,6 @@
+1era Parte  -->  Usamos Logisim Evolution (Compuertas)
+2da Parte   -->  Usamos Ripes (RiscV)
+
 ORG1 (Campus):
 
 https://campus12-24.exactas.uba.ar/course/view.php?id=4168&section=5 (Mas actual-2024)
