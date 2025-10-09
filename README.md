@@ -1,4 +1,5 @@
 1era Parte  -->  Usamos Logisim Evolution (Compuertas)
+
 2da Parte   -->  Usamos Ripes (RiscV)
 
 ORG1 (Campus):
