@@ -57,6 +57,33 @@
 01000: ; MOV
     RB_enOut RB_selectIndexOut=1 RB_enIn RB_selectIndexIn=0
     reset_microOp
+
+01001: ;SIG
+    RB_enOut  ALU_enA  RB_selectIndexOut=0 ; Rx 
+    ALU_OP=cte0x01 ALU_opW                 ; Uso la constante 1 de la ALU 
+    ALU_enOut ALU_enB                       ; Paso la constante a la entrada B 
+    ALU_OP=ADD ALU_opW                     ; sumo 1 al registro en A 
+    RB_enIn ALU_enOut RB_selectIndexIn=0   ; Paso el resultado a Rx 
+    reset_microOp 
+
+01010: ;NEG
+    RB_enOut  ALU_enA  RB_selectIndexOut=0 ; Rx 
+    ALU_OP=cte0xFF ALU_opW 
+    ALU_enOut ALU_enB 
+    ALU_OP=XOR ALU_opW 
+    ALU_enOut ALU_enA 
+    ALU_OP=cte0x01 ALU_opW 
+    RB_enOut ALU_enB
+    ALU_OP=ADD ALU_opW
+    RB_enIn ALU_enOut RB_selectIndexIn=0 
+    reset_microOp
+    
+01011: ;MIX 
+    RB_enOut  ALU_enA  RB_selectIndexOut=0 ; Rx 
+    RB_enOut  ALU_enB  RB_selectIndexOut=1 ; Ry
+    ALU_OP=XOR ALU_opW 
+    RB_enIn ALU_enOut RB_selectIndexIn=0 
+    reset_microOp
   
 10000: ; STR [M] <- Rx
     DE_enOutImm MM_enAddr

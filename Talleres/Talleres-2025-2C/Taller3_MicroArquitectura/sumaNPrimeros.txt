@@ -1,0 +1,12 @@
+          |00| SET R0 , 0X05
+          |02| SET R1 , 0x00
+          |04| SET R2 , 0X00
+          |06| CMP R0 , R2
+          |08| JZ terminar
+          |0a| ADD R1 , R0
+siguiente |0c| DEC R0
+          |0e| ADD R1 , R0
+          |10| CMP R0 , R2
+          |12| JZ terminar
+          |14| JMP siguiente
+ terminar |16| JMP terminar

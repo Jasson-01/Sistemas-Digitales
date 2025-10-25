@@ -2045,6 +2045,9 @@
       <a name="font" val="SansSerif bold 23"/>
       <a name="text" val="X"/>
     </comp>
+    <comp lib="8" loc="(663,1209)" name="Text">
+      <a name="text" val="MIX = 1010"/>
+    </comp>
     <comp lib="8" loc="(705,390)" name="Text">
       <a name="text" val="ADD = 0001"/>
     </comp>
@@ -2087,6 +2090,7 @@
     <comp lib="8" loc="(730,980)" name="Text">
       <a name="text" val="CONSTANTES"/>
     </comp>
+    <comp loc="(550,1220)" name="MIX"/>
     <wire from="(1000,190)" to="(1000,210)"/>
     <wire from="(1000,300)" to="(1000,310)"/>
     <wire from="(1000,310)" to="(1010,310)"/>
@@ -2141,7 +2145,9 @@
     <wire from="(340,960)" to="(510,960)"/>
     <wire from="(350,260)" to="(430,260)"/>
     <wire from="(350,410)" to="(400,410)"/>
+    <wire from="(400,1160)" to="(400,1230)"/>
     <wire from="(400,1160)" to="(980,1160)"/>
+    <wire from="(400,1230)" to="(520,1230)"/>
     <wire from="(400,410)" to="(400,490)"/>
     <wire from="(400,410)" to="(510,410)"/>
     <wire from="(400,490)" to="(400,570)"/>
@@ -2156,7 +2162,9 @@
     <wire from="(400,740)" to="(510,740)"/>
     <wire from="(400,810)" to="(400,1160)"/>
     <wire from="(400,810)" to="(510,810)"/>
+    <wire from="(430,1120)" to="(430,1220)"/>
     <wire from="(430,1120)" to="(980,1120)"/>
+    <wire from="(430,1220)" to="(520,1220)"/>
     <wire from="(430,260)" to="(430,390)"/>
     <wire from="(430,390)" to="(430,470)"/>
     <wire from="(430,390)" to="(510,390)"/>
@@ -2192,6 +2200,7 @@
     <wire from="(530,830)" to="(590,830)"/>
     <wire from="(540,620)" to="(780,620)"/>
     <wire from="(540,670)" to="(790,670)"/>
+    <wire from="(550,1220)" to="(850,1220)"/>
     <wire from="(550,400)" to="(830,400)"/>
     <wire from="(550,480)" to="(820,480)"/>
     <wire from="(550,560)" to="(770,560)"/>
@@ -2266,6 +2275,8 @@
     <wire from="(830,520)" to="(900,520)"/>
     <wire from="(830,600)" to="(830,950)"/>
     <wire from="(830,600)" to="(900,600)"/>
+    <wire from="(850,610)" to="(850,1220)"/>
+    <wire from="(850,610)" to="(900,610)"/>
     <wire from="(860,630)" to="(860,1010)"/>
     <wire from="(860,630)" to="(900,630)"/>
     <wire from="(870,130)" to="(870,330)"/>
@@ -2274,10 +2285,8 @@
     <wire from="(870,640)" to="(870,1030)"/>
     <wire from="(870,640)" to="(900,640)"/>
     <wire from="(880,500)" to="(880,510)"/>
-    <wire from="(880,510)" to="(880,610)"/>
+    <wire from="(880,510)" to="(880,620)"/>
     <wire from="(880,510)" to="(900,510)"/>
-    <wire from="(880,610)" to="(880,620)"/>
-    <wire from="(880,610)" to="(900,610)"/>
     <wire from="(880,620)" to="(900,620)"/>
     <wire from="(880,650)" to="(880,1050)"/>
     <wire from="(880,650)" to="(900,650)"/>
@@ -3299,7 +3308,6 @@
     <wire from="(970,170)" to="(1000,170)"/>
   </circuit>
   <circuit name="MIX">
-    <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="MIX"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
@@ -3334,10 +3342,11 @@
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(720,220)" name="Pin">
+    <comp lib="0" loc="(710,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
+      <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
     <wire from="(160,240)" to="(180,240)"/>
@@ -3364,6 +3373,6 @@
     <wire from="(580,260)" to="(610,260)"/>
     <wire from="(610,160)" to="(610,230)"/>
     <wire from="(610,300)" to="(610,310)"/>
-    <wire from="(630,220)" to="(720,220)"/>
+    <wire from="(630,220)" to="(710,220)"/>
   </circuit>
 </project>
