@@ -1,9 +1,9 @@
-SET R0, 0X05 ;N (Cualquier Numero) 
+SET R0, 0X09 ;N (Cualquier Numero) 
 SET R1, 0x00 ;Acumulador
 SET R2, 0X00 ;CasoBase 0  
 CMP R0, R2   ;Compara si N es igual al caso base(R2) -> se activa el flag Zero y termino el programa 
 JZ terminar  ;Salto a terminar
-ADD R1, R0   ;Guardo el numero N en el acumulador  
+MOV R1, R0   ;Muevo el numero N al acumulador  
 siguiente:
 DEC R0        ;Resto N -> N-1
 ADD R1, R0    ;sumo N-1 en el acumulador(R1) -> N + (N-1)
