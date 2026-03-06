@@ -1,6 +1,6 @@
-# 💻 Organización del Computador I (ORG1) - UBA
+# 💻 Sistemas Digitales (ORG1) - UBA
 
-Repositorio y guía de recursos para la materia de Organización del Computador I.
+Repositorio y guía de recursos para la materia de Sistemas Digitales.
 
 ---
 
