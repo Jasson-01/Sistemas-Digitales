@@ -1,55 +1,60 @@
-1era Parte  -->  Usamos Logisim Evolution (Compuertas)
+# 💻 Organización del Computador I (ORG1) - UBA
 
-2da Parte   -->  Usamos Ripes (RiscV)
+Repositorio y guía de recursos para la materia de Organización del Computador I.
 
-ORG1 (Campus):
+---
 
-https://campus12-24.exactas.uba.ar/course/view.php?id=4168&section=5 (Mas actual-2024)
+## 🛠️ Herramientas y Roadmap de la Cursada
 
-https://campus12-24.exactas.uba.ar/course/view.php?id=2446&section=0 (Tiene videos-2021)
+La materia se divide principalmente en dos grandes etapas:
 
-GitHub:
+1.  **🔌 1ra Parte (Sistemas Digitales):** Diseño de circuitos y lógica combinatoria/secuencial utilizando **Logisim Evolution**.
+2.  **🧠 2da Parte (Arquitectura):** Programación en Assembly y estudio de arquitectura utilizando **Ripes (RISC-V)**.
 
-https://github.com/nad-garraz/sistemasDigitales/tree/main
+---
 
-cubaWiki (Varios ejercicios de la guias, estan resueltos aquí):
+## 🏛️ Recursos Oficiales y Campus
 
-https://www.cubawiki.com.ar/index.php/Organizaci%C3%B3n_del_Computador_I (pl_1993)
+| Recurso | Descripción | Enlace |
+| :--- | :--- | :--- |
+| **Campus 2024** | El material más actualizado del año. | [Acceder](https://campus12-24.exactas.uba.ar/course/view.php?id=4168&section=5) |
+| **Campus 2021** | Muy útil por su archivo de videos teóricos. | [Acceder](https://campus12-24.exactas.uba.ar/course/view.php?id=2446&section=0) |
+| **CubaWiki** | Guías y ejercicios resueltos (Plan 1993). | [Ver Resoluciones](https://www.cubawiki.com.ar/index.php/Organizaci%C3%B3n_del_Computador_I) |
 
-Apuntes_SD y Resumen:
+---
 
-https://docs.google.com/document/d/1CtJKRPdyvsJF0vBcDxYQ18MK-b-4155XMSSdKwcyVac/edit?tab=t.0
+## 📚 Apuntes, Resúmenes y Repositorios
 
-https://youtube.com/@travernerd4061?si=Tj0IQLMFj2E9Vlk0 
+* **📄 Documento de Resumen:** [Apuntes SD y Resumen General](https://docs.google.com/document/d/1CtJKRPdyvsJF0vBcDxYQ18MK-b-4155XMSSdKwcyVac/edit?tab=t.0)
+* **📂 GitHub de Referencia:** [Sistemas Digitales - nad-garraz](https://github.com/nad-garraz/sistemasDigitales/tree/main)
 
-Lista de Videos sobre Flip-Flop y otras cosas interesantes:
+---
 
-https://www.youtube.com/watch?v=gje7EY6Hdyo&list=PLenmbJvDQ_-C11s_-FRBnzJHYslfierID&index=48
+## 🎥 Videoteca de Estudio
 
-https://www.youtube.com/watch?v=gUdaxV_mbxY&list=LL&index=17  ( Registro de Desplazamiento con FF tipo D )
+### 💡 Teoría General y Sistemas Digitales
+* 📺 **Canal Recomendado:** [Travernerd](https://youtube.com/@travernerd4061) (Conceptos base).
+* 📟 **Flip-Flops y Lógica:** [Lista de reproducción sobre FF](https://www.youtube.com/watch?v=gje7EY6Hdyo&list=PLenmbJvDQ_-C11s_-FRBnzJHYslfierID&index=48)
+* 📑 **Registros:** [Registro de Desplazamiento con FF tipo D](https://www.youtube.com/watch?v=gUdaxV_mbxY)
 
-Videos sobre RISV-V:
+### 🏗️ RISC-V y Assembly
+* 🎯 **Canal Especializado:** [thereforeMathAndCS](https://www.youtube.com/@thereforeMathAndCS/videos)
+* 🏁 **Introducción a RISC-V:** [Video 1](https://youtu.be/wg3j35gQ71k) | [Video 2](https://youtu.be/2RteUgZwmHI) | [Video 3](https://youtu.be/iraP-NzXeFU)
+* 🧩 **Ejercicios y más:** [Tutorial Assembly](https://youtu.be/fABbEKsTQPA) | [Conceptos Clave](https://www.youtube.com/watch?v=D5u9zA_LBuA) | [RISC-V Deep Dive](https://youtu.be/JyvZ0i9s6xg)
 
-https://youtu.be/wg3j35gQ71k?si=tYo1Zl14Twwl0qrt
+### 🔬 Microarquitectura (Datapath y Control)
+* ⚙️ [Introducción a la Microarquitectura](https://youtu.be/FeCDhUM47Ds)
+* ⚙️ [Diseño del Procesador](https://youtu.be/MoO-_-BB_R8)
+* ⚙️ [Ciclos de Instrucción](https://youtu.be/lpgLZtn42XM)
+* ⚙️ [Análisis de Datapath](https://youtu.be/GxdViT-K8hw)
 
-https://youtu.be/2RteUgZwmHI?si=Vk4PlNVjVePzpx0H
+---
 
-https://youtu.be/iraP-NzXeFU?si=VQwWdyt43jX-1_V0
+## 🌟 Mensaje de aliento
+> *"La organización del computador es el puente entre el hardware y el software. ¡Dale átomos!"*
 
-https://www.youtube.com/@thereforeMathAndCS/videos
+**Good luck, cowboy/cowgirl...** 🤠🌵
 
-https://youtu.be/fABbEKsTQPA?si=Z2snEIRADPh7Nq25
-
-https://www.youtube.com/watch?v=D5u9zA_LBuA&list=LL&index=49
-
-https://youtu.be/JyvZ0i9s6xg?si=yrolID-bzoc6b9ei
-
-Microarquitectura:
-
-https://youtu.be/FeCDhUM47Ds?si=qUz8LSXXoOxaK-s_
-
-https://youtu.be/MoO-_-BB_R8?si=IsIsAwVeHhsJZOV5
-
-https://youtu.be/lpgLZtn42XM?si=l1v6KuiIeMkjmUTY
-
-https://youtu.be/GxdViT-K8hw?si=JnxjPU8KBXqI--9C
+<div align="center">
+  <img alt="Fogata" src="https://user-images.githubusercontent.com/74038190/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif" width="150" >
+</div>
